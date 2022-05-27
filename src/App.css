@@ -1,3 +1,13 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(232, 232, 224) 10%,
+    rgb(79, 185, 191) 90%
+  );
+  color: rgb(40, 163, 182);
+  font-family: "Lobster", cursive;
+}
+
 .App {
   text-align: left;
 }
@@ -54,4 +64,38 @@ tr {
 
 .card {
   width: 18rem;
+}
+
+.orders-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tarjetas-destinos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.tarjeta-enlace {
+  text-align: center;
+}
+.nombre-ciudad {
+  text-align: center;
+}
+
+.titulo-principal {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  letter-spacing: 30px;
+  color: white;
+}
+
+.titulo-menu {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  letter-spacing: 30px;
+  margin-bottom: 20px;
 }
